@@ -1,0 +1,58 @@
+/* Main selectors ---------------------- */
+* {
+  box-sizing: border-box;
+}
+
+header {
+
+}
+
+section {
+
+}
+
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: lightgreen;
+}
+
+p {
+  color: brown;
+}
+
+nav {
+
+}
+
+li {
+  color: white;
+}
+
+footer {
+
+}
+
+/* class selectors ------------------------ */
+.nav-bar {
+
+  /* display: inline; */
+}
+
+.First-Header {
+
+}
+
+.Second-Header {
+
+}
+
+.Third-Header {
+
+}
+
+
+
+a.link {
