@@ -1,58 +1,172 @@
-/* Main selectors ---------------------- */
+
+/* Universal selectors ---------------------- */
 * {
   box-sizing: border-box;
 }
 
-header {
+/* Main selectors ---------------------- */
 
+body {
+  /* background-color: green; */
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-section {
-
+header {
+  color: white;
+  background-color: green;
+  text-transform: uppercase;
+  /* margin: 15px 20px; */
+  padding: auto%;
+  border: 5px solid purple;
+  border-top: 5px solid black;
 }
 
 h1 {
-  color: blue;
+  color: black;
+  border: 2px solid purple;
+  max-width: 250px;
+  display: inline-block;
 }
 
-h2 {
-  color: lightgreen;
+h3 {
+  border: 2px solid lightblue;
+  max-width: 250px;
+  display: inline-block;
 }
 
 p {
-  color: brown;
+  color: white;
+  border: 2px solid purple;
 }
 
-nav {
-
+br {
+  white;
 }
 
 li {
-  color: white;
+  list-style-type: none; /* this takes the dots off of the nav links */
+  display: inline;
+  padding: 5px;
+  border-right: solid 1px;
+}
+
+aside {
+  background-color: green;
+  margin: 10px;
+  border: 5px solid purple;
+  max-width: 550px;
+  float: right;
 }
 
 footer {
-
+  background-color: green;
+  margin: 10px;
+  padding: 10px;
+  border: 5px solid purple;
+  max-width: 250px;
 }
 
-/* class selectors ------------------------ */
+/* Class selectors ---------------------- */
+
+.title {
+  border: 1px solid purple;
+}
+
+.leaves {
+  width: 500px;
+  height: auto;
+  margin: auto;
+}
+
+.main-header {
+  color: white;
+  background-color: green;
+  margin: 10px;
+  border-top: 5px solid purple;
+}
+
 .nav-bar {
-
-  /* display: inline; */
+  color: white;
+  background-color: lightblue;
+  margin: 5px;
+  padding: 5px;
+  border-right: 5px solid purple;
+  display: inline-block;
 }
 
-.First-Header {
+.main-form {
+  background-color: green;
+  margin: 10px;
+  padding: 10px;
+  border: 5px solid purple;
+  display: flex;
+}
+
+.main-article {
+  background-color: green;
+  margin: 10px;
+  padding: 10px;
+  border: 5px solid purple;
+  display: inline-block;
+}
+
+.first-article {
+  background-color: green;
+  margin: 25px;
+  padding: 10px;
+  border: 5px solid white;
+  max-width: 50%px;
 
 }
 
-.Second-Header {
+.second-article {
+  background-color: green;
+  margin: 25px;
+  padding: 10px;
+  border: 5px solid white;
+  max-width: 50%px;
 
 }
 
-.Third-Header {
+.third-article {
+  background-color: green;
+  margin: 25px;
+  padding: 10px;
+  border: 5px solid white;
+}
+
+.fourth-article {
+  background-color: green;
+  margin: 25px;
+  padding: 10px;
+  border: 5px solid white;
+}
+
+.one-two-article {
+  background-color: green;
+  margin: 25px;
+  padding: 10px;
+  border: 5px solid red;
+
+}
+
+.three-four-article {
+  background-color: green;
+  margin: 25px;
+  padding: 10px;
+  border: 5px solid red;
 
 }
 
 
+/* Pseudo selectors ---------------------- */
 
-a.link {
+a:link {
+    color: white;
+}
+
+a:hover {
+  border: 1px solid blue;
+}

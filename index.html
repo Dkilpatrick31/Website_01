@@ -3,64 +3,83 @@
   <head>
     <meta charset="utf-8">
     <title>One Page Responsive Layout</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width">
   </head>
+
   <body>
-    <section>
+
+    <!-- Here is our main header that is used across all the pages of our website -->
+    <div class="wrapper">
       <header>
-        <h1>One Page Responsive Layout</h1>
-        <p>Lorem ipsum dolor amet offal kale chips everyday carry adipisicing, pariatur prism affogato scenester woke
-           pour-over vegan  cliche. Copper mug meggings cillum everyday carry chillwave.</p>
+        <h1>Header</h1>
+        <nav class="nav-bar">
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#OurTeam">Our team</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+
+           <!-- A Search form is another commmon non-linear way to navigate through a website. -->
+           <form class="main-form">
+             <input type="search" name="q" placeholder="Search query">
+             <input type="submit" value="Go!">
+           </form>
+         </nav>
       </header>
 
-      <div class="main-header">
-        <section class="nav-bar">
-          <nav>
-            <ul>
-              <li><a href="#Contact">Contact</a></li>
-              <li><a href="#Homepage">Homepage</a></li>
-              <li><a href="#About Us">About Us</a></li>
-              <li><a href="#Services">Services</a></li>
-              <li><a href="#Contact">Contact</a></li>
-              <li><a href="#External">External</a></li>
-              <li><a href="#Nicholas_Cage">Nicholas Cage</a></li>
-            </ul>
-          </nav>
-        </section>
-      </div>
-
+      <!-- Here is our page's main content -->
       <main>
-        <article>
-          <div class="Articles">
-            <section class="First-Header">
-              <h2>First Post</h2>
-              <p>Lorem ipsum dolor amet offal kale chips everyday carry adipisicing, pariatur prism affogato scenester woke pour-
-                over vegan deserunt man bun <a href="">Nicholas Cage</a> clm dolor amet offal kale chips everyday carry adipisicing, pariatur pri
-                  scenester.</p>
-            </section>
-            <div>
-              <section class="Second-Header">
-                <h2>Second Post</h2>
-                <p>Lorem ipsum dolor amet offal kale chips everyday carry adipisicing, pariatur prism affogato scenester woke pour-
-                  over vegan deserunt man bun bicycle rights clm dolor amet offal kale chips everyday carry adipisicing, pariatur pri
-                    scenester woke pour-over vegan deserunt man bun bicycle rights cliche. Copper mug meggings cillum every
-                    day carry chillwave.</p>
-              </section>
-            </div>
-            <section class="Third-Header">
-              <h2>Third Post</h2>
-              <p>Lorem ipsum dolor amet offal kale chips everyday carry adipisicing, pariatur prism affogato scenester woke pour-
-                over vegan deserunt man bun bicycle rights clm dolor amet offal kale chips everyday carry adipisicing, pariatur pri
-                  scenester.</p>
-            </section>
-          </div>
-        </article>
+        <section class="main-header">
+          <h1><img class="leaves" src="img/leaves.jpg" alt="Leaves">Hi.</h1>
+          <span class="title">Journey to Developer</span>
+        </section>
+
+        <section class="main-article"> v
+          <section class="one-two-article">
+            <article class="first-article">
+              <h3>1st Article</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+            </article><br>
+            <article class="second-article">
+                <h3>2nd Article</h3>
+                <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+                <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
+            </article><br>
+          </section>
+          <section class="three-four-article">
+            <article class="third-article">
+                <h3>3rd Article</h3>
+                <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+                <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
+            </article><br>
+            <article class="fourth-article">
+              <h3>4th Article</h3>
+              <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+              <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
+            </article>
+          </section>
+        </section>
+
+        <!-- the aside content can also be nested within the main content -->
+        <aside>
+          <h2>Related</h2>
+
+          <ul>
+            <li><a href="#">Oh I do like to be beside the seaside</a></li>
+            <li><a href="#">Oh I do like to be beside the sea</a></li>
+            <li><a href="#">Although in the North of England</a></li>
+            <li><a href="#">It never stops raining</a></li>
+            <li><a href="#">Oh well...</a></li>
+          </ul>
+        </aside>
+
       </main>
 
       <footer>
-        <h1>Footer Header</h1>
-        <p>Footer Paragraph</p>
+        <p>©Copyright 2050 by nobody. All rights reversed.</p>
       </footer>
-    </section>
+    </div> /* wrapper */
   </body>
 </html>
