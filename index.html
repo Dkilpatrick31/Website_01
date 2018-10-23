@@ -5,11 +5,12 @@
     <title>One Page Responsive Layout</title>
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
 
   <body>
-
-    <!-- Here is our main header that is used across all the pages of our website -->
     <div class="wrapper">
       <header>
         <h1>Header</h1>
@@ -28,58 +29,51 @@
            </form>
          </nav>
       </header>
-
       <!-- Here is our page's main content -->
-      <main>
-        <section class="main-header">
-          <h1><img class="leaves" src="img/leaves.jpg" alt="Leaves">Hi.</h1>
-          <span class="title">Journey to Developer</span>
+      <section class="projects">
+        <article class="first-project">
+          <figure>
+            <img src="img/sunrise.jpg" alt="Img of Sunrise">
+            <figcaption>Tic Tac Toe</figcaption>
+          </figure>
+          <hgroup>
+            <h1>1st Project Name</h1>
+            <h3>2nd Project Description</h3>
+          </hgroup>
+            <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+        </article><br>
+        <article class="second-project">
+          <figure>
+            <img src="img/sunrise.jpg" alt="Img of Sunrise">
+            <figcaption>Tic Tac Toe</figcaption>
+          </figure>
+          <hgroup>
+            <h1>2nd Project Name</h1>
+            <h3>2nd Project Description</h3>
+          </hgroup>
+            <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+        </article><br>
+      </section>
+      <!-- the aside content can also be nested within the main content -->
+      <aside>
+        <section class="popular-projects">
+          <h2>Popular Projects</h2>
+            <a href="#">Oh I do like to be beside the seaside</a>
+            <a href="#">Oh I do like to be beside the sea</a>
+            <a href="#">Although in the North of England</a>
+            <a href="#">It never stops raining</a>
+            <a href="#">Oh well...</a>
         </section>
-
-        <section class="main-article"> v
-          <section class="one-two-article">
-            <article class="first-article">
-              <h3>1st Article</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
-            </article><br>
-            <article class="second-article">
-                <h3>2nd Article</h3>
-                <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
-                <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
-            </article><br>
-          </section>
-          <section class="three-four-article">
-            <article class="third-article">
-                <h3>3rd Article</h3>
-                <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
-                <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
-            </article><br>
-            <article class="fourth-article">
-              <h3>4th Article</h3>
-              <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
-              <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
-            </article>
-          </section>
+        <section class="contact-details">
+          <h2>Contact</h2>
+          <p>Dane Kilpatrick</p><br />
+          <p>123 East Marybrooke Lane</p><br />
+          <p>Austin, Tx</p><br />
         </section>
-
-        <!-- the aside content can also be nested within the main content -->
-        <aside>
-          <h2>Related</h2>
-
-          <ul>
-            <li><a href="#">Oh I do like to be beside the seaside</a></li>
-            <li><a href="#">Oh I do like to be beside the sea</a></li>
-            <li><a href="#">Although in the North of England</a></li>
-            <li><a href="#">It never stops raining</a></li>
-            <li><a href="#">Oh well...</a></li>
-          </ul>
-        </aside>
-
-      </main>
-
+      </aside>
       <footer>
-        <p>©Copyright 2050 by nobody. All rights reversed.</p>
+        &copy; 2018 Dane Kilpatrick Copyright
       </footer>
-    </div> /* wrapper */
+    </div>
   </body>
 </html>

@@ -1,55 +1,123 @@
-
-/* Universal selectors ---------------------- */
-* {
-  box-sizing: border-box;
+header, section, footer, aside, nav, article, figure, figcaption {
+  display: block;
 }
 
 /* Main selectors ---------------------- */
 
 body {
-  /* background-color: green; */
+  color: #666666;
   text-align: center;
-  margin: 0;
-  padding: 0;
+  background-image: url("../img/sky.jpg");
+  background-position: center;
+  font-family: Georgia, Times, serif;
+  background-color: pink;
+  line-height: 1.4em;
+  margin: 0px;
 }
 
 header {
-  color: white;
-  background-color: green;
-  text-transform: uppercase;
-  /* margin: 15px 20px; */
-  padding: auto%;
-  border: 5px solid purple;
-  border-top: 5px solid black;
+  height: 160px;
+  background-image: url("../img/sky.jpg");
 }
 
 h1 {
-  color: black;
-  border: 2px solid purple;
-  max-width: 250px;
-  display: inline-block;
+  text-indent: ;
+  width: 940px;
+  height: 130px;
+  margin: 0px;
+}
+
+nav, footer {
+  clear: both;
+  color: #ffffff;
+  background-color: #aeaca8;
+  height: 30px;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 40px;
+}
+
+nav li a {
+  color: #ffffff;
+}
+
+nav li a:hover, nav li a.current {
+  color: #000000;
+}
+
+section.projects {
+  float: left;
+  width: 659px;
+  border-right: 1px solid #eeeeee;
+}
+
+hgroup {
+  margin-top: 40px;
+}
+
+figure {
+  float: left;
+  width: 290px;
+  height: 220px;
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid #eeeeee;
+}
+
+figcaption {
+  font-size: 90%;
+  text-align: left;
+}
+
+aside {
+  width: 230px;
+  float: left;
+  padding: 0px 0px 0px 20px;
+}
+
+aside section a {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+aside section a:hover {
+  color: #de6581;
+  background-color: #efefef;
+}
+
+a {
+  color: #de6581;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+h2 {
+  margin: 10px 0px 5px 0px;
+  padding: 0px;
 }
 
 h3 {
-  border: 2px solid lightblue;
-  max-width: 250px;
-  display: inline-block;
+  margin: 0px 0px 10px 0px;
 }
 
-p {
-  color: white;
-  border: 2px solid purple;
+aside h2 {
+  padding: 30px 0px 10px 0px;
 }
 
-br {
-  white;
-}
-
-li {
-  list-style-type: none; /* this takes the dots off of the nav links */
-  display: inline;
-  padding: 5px;
-  border-right: solid 1px;
+footer {
+  font-size: 80%;
+  padding: 7px 0px 0px 20px;
 }
 
 aside {
@@ -60,113 +128,16 @@ aside {
   float: right;
 }
 
-footer {
-  background-color: green;
-  margin: 10px;
-  padding: 10px;
-  border: 5px solid purple;
-  max-width: 250px;
+img {
+  height: 80%;
+  width: 100%;
 }
 
 /* Class selectors ---------------------- */
 
-.title {
-  border: 1px solid purple;
-}
-
-.leaves {
-  width: 500px;
-  height: auto;
-  margin: auto;
-}
-
-.main-header {
-  color: white;
-  background-color: green;
-  margin: 10px;
-  border-top: 5px solid purple;
-}
-
-.nav-bar {
-  color: white;
-  background-color: lightblue;
-  margin: 5px;
-  padding: 5px;
-  border-right: 5px solid purple;
-  display: inline-block;
-}
-
-.main-form {
-  background-color: green;
-  margin: 10px;
-  padding: 10px;
-  border: 5px solid purple;
-  display: flex;
-}
-
-.main-article {
-  background-color: green;
-  margin: 10px;
-  padding: 10px;
-  border: 5px solid purple;
-  display: inline-block;
-}
-
-.first-article {
-  background-color: green;
-  margin: 25px;
-  padding: 10px;
-  border: 5px solid white;
-  max-width: 50%px;
-
-}
-
-.second-article {
-  background-color: green;
-  margin: 25px;
-  padding: 10px;
-  border: 5px solid white;
-  max-width: 50%px;
-
-}
-
-.third-article {
-  background-color: green;
-  margin: 25px;
-  padding: 10px;
-  border: 5px solid white;
-}
-
-.fourth-article {
-  background-color: green;
-  margin: 25px;
-  padding: 10px;
-  border: 5px solid white;
-}
-
-.one-two-article {
-  background-color: green;
-  margin: 25px;
-  padding: 10px;
-  border: 5px solid red;
-
-}
-
-.three-four-article {
-  background-color: green;
-  margin: 25px;
-  padding: 10px;
-  border: 5px solid red;
-
-}
-
-
-/* Pseudo selectors ---------------------- */
-
-a:link {
-    color: white;
-}
-
-a:hover {
-  border: 1px solid blue;
+.wrapper {
+  width: 940px;
+  margin: 20px auto 20px auto;
+  border: 2px solid #000000;
+  background-color: #ffffff;
 }
