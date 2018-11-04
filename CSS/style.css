@@ -1,9 +1,195 @@
-header, section, footer, aside, nav, article, figure, figcaption {
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Space+Mono');
+
+body {
+  color: #878787;
+  margin: 0;
+}
+
+header {
+  background-color: lightblue;
+  margin: 0px 15px 0px 15px;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  font-size: 18pt;
+  background-color: white;
+}
+
+nav {
+  background-color: blue;
+  /* margin: 0px 10px px 10px; */
+}
+
+img {
+  width: 35%;
+  height: 50%;
+  margin: 15px 0px 0px 15px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Space Mono', monospace;
+  font-size: 50pt;
+  position: relative;
+}
+
+h3 {
+  /* position: relative; */
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #164766;
+  border: 3px double #F2FDFF;
+  font-family: 'Space Mono', monospace;
+  margin-left: 35px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+p {
+  color: #FFFFFF;
+  border: 10px double #2BDB5D;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  width: 640px;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none; // takes away the dots on a the UL
+  /* padding: 5px 0px 5px 50px; */
+}
+
+li {
+  color: white;
+  display: inline;
+  padding: 26px;
+  font-size: 15pt;
+  font-family: 'Space Mono', monospace;
+}
+
+.h1-div {
+  background-color: pink;
+  width: 300px; // changes the width of the pink box
+  margin-left: 450px;
+  position: relative;
+  /* margin: 5px 0px 0px 5px; */
+}
+
+.first-li {
+  margin-left: 7%;
+  position: relative;
+}
+
+.first-article {
+  background-color: brown;
+  margin: 15px;
+}
+
+.first-content {
+  background-color: #2A3A3B;
+  margin: 15px;
+
+  /* display: flex; */
+  /* margin: 25px; */
+  /* flex-grow: 3; */
+}
+
+.first-div {
+
+}
+
+.first-p {
+  background-color: white;
+  color: blue;
+  font-family: 'Space Mono', monospace;
+  /* border: 2px solid #2A3A3B; */
+  margin:50px 0px 10px 50px;
+  /* position: relative; */
+}
+
+.second-content {
+  background-color: #101935;
+}
+
+.second-p {
+  background-color: white;
+  color: blue;
+  font-family: 'Space Mono', monospace;
+  margin:50px 0px 10px 50px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header, section, footer, aside, nav, article, figure, figcaption {
   display: block;
 }
 
 /* Main selectors ---------------------- */
-
+/*
 body {
   color: #666666;
   background-color: #f9f8f6;
@@ -29,14 +215,30 @@ header {
 }
 
 h1 {
-  text-indent: 250px;
+  text-indent: 150px;
   color: white;
   width: 940px;
   height: 130px;
+  padding-top: 50px;
   margin: 0px;
+} */
+
+/* nav, footer {
+  clear: both;
+  color: #ffffff;
+  background-color: #aeaca8;
+  height: 30px;
+} */
+/*
+nav {
+  clear: both;
+  color: #ffffff;
+  background-color: #aeaca8;
+  height: 30px;
+  margin-bottom: -50px;
 }
 
-nav, footer {
+footer {
   clear: both;
   color: #ffffff;
   background-color: #aeaca8;
@@ -44,8 +246,8 @@ nav, footer {
 }
 
 nav ul {
-  margin: 0px;
-  padding: 5px 0px 5px 30px;
+margin: 0px 10px 10px 5px;
+padding: 5px 0px 5px 30px;
 }
 
 nav li {
@@ -141,6 +343,6 @@ aside {
 img {
   height: 100%;
   width: 100%;
-}
+} */
 
-/* Class selectors ---------------------- */
+/* Class selectors ---------------------- */ */
